@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт о красивых местах, которые стоит посетить. Найдите вдохновение для своих путешествий!">
+    <title>Красивые места для путешествий</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: url('https://source.unsplash.com/1600x900/?nature,landscape') no-repeat center/cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .place {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .place img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto 15px;
+            border-radius: 10px;
+        }
+        .place h2 {
+            font-size: 2em;
+            color: #444;
+        }
+        .place p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Красивые места мира</h1>
+        <p>Откройте для себя удивительные уголки нашей планеты</p>
+    </header>
+    <nav>
+        <a href="#europe">Европа</a>
+        <a href="#asia">Азия</a>
+        <a href="#america">Америка</a>
+        <a href="#africa">Африка</a>
+    </nav>
+    <main class="content">
+        <section id="europe" class="place">
+            <h2>Париж, Франция</h2>
+            <img src="https://source.unsplash.com/600x400/?paris,eiffel" alt="Эйфелева башня">
+            <p>Париж — это город света, романтики и искусства. Не упустите шанс увидеть Эйфелеву башню, Лувр и прогуляться по уютным улочкам Монмартра.</p>
+        </section>
+        <section id="asia" class="place">
+            <h2>Киото, Япония</h2>
+            <img src="https://source.unsplash.com/600x400/?kyoto,japan" alt="Храм в Киото">
+            <p>Киото поражает своей атмосферой спокойствия и великолепной природой. Посетите знаменитые храмы и насладитесь цветением сакуры весной.</p>
+        </section>
+        <section id="america" class="place">
+            <h2>Гранд-Каньон, США</h2>
+            <img src="https://source.unsplash.com/600x400/?grandcanyon,usa" alt="Гранд-Каньон">
+            <p>Гранд-Каньон — один из самых впечатляющих природных памятников мира. Его величие и мощь захватывают дух.</p>
+        </section>
+        <section id="africa" class="place">
+            <h2>Водопад Виктория, Замбия</h2>
+            <img src="https://source.unsplash.com/600x400/?victoriafalls,zambia" alt="Водопад Виктория">
+            <p>Водопад Виктория — одно из самых красивых мест Африки. Грандиозный поток воды и радуги создают уникальное зрелище.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Красивые места мира. Все права защищены. Посетите нас: <a href="https://example.com">Наш сайт</a></p>
+    </footer>
+</body>
+</html>
